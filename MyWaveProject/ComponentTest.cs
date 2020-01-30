@@ -6,6 +6,7 @@ using WaveEngine.Common.Input.Keyboard;
 using WaveEngine.Framework;
 using WaveEngine.Framework.Graphics;
 using WaveEngine.Mathematics;
+using System.Linq;
 
 namespace MyWaveProject
 {
@@ -19,11 +20,20 @@ namespace MyWaveProject
 
         public KeyboardDispatcher keyboardDispatcher;
 
-        protected override void OnActivated()
+        public Bullet[] bullets;
+
+        protected override void Start()
         {
             if (camera != null && camera.Display != null)
             {
                 keyboardDispatcher = camera.Display.KeyboardDispatcher;
+            }
+
+            
+            bullets = this.Managers.EntityManager.FindComponentsOfType<Bullet>().ToArray();
+            foreach(Bullet b in bullets)
+            {
+                b.Owner.IsEnabled = false;
             }
         }
 
@@ -46,10 +56,19 @@ namespace MyWaveProject
             {
                 transform.LocalPosition += transform.LocalOrientation * (Vector3.Backward * -5.0f * deltaTime);
             }
-            /*if (keyboardDispatcher.IsKeyDown(Keys.Space))
+            if (keyboardDispatcher.ReadKeyState(Keys.Space) == ButtonState.Pressing)
             {
-                this.Managers.EntityManager.Add(this.Owner.);
-            }*/
+                foreach(Bullet b in bullets)
+                {
+                    if (!b.Owner.IsEnabled)
+                    {
+                        b.transform.Position = transform.Position;
+                        b.transform.Orientation = transform.Orientation;
+                        b.Owner.IsEnabled = true;
+                        break;
+                    }
+                }
+            }
         }
     }
 }

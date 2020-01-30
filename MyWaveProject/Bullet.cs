@@ -12,12 +12,23 @@ namespace MyWaveProject
         [BindComponent]
         public Transform3D transform;
 
-        public float speed = 1.0f;
+        private float speed = 30.0f;
+
+        private float lifeTime;
+
+        protected override void OnActivated()
+        {
+            lifeTime = 0.5f;
+        }
 
         protected override void Update(TimeSpan gameTime)
         {
             float deltaTime = (float)gameTime.TotalSeconds;
             transform.Position += transform.LocalOrientation * Vector3.Backward * speed * deltaTime;
+
+            lifeTime -= (float)gameTime.TotalSeconds;
+            if (lifeTime <= 0.0f)
+                Owner.IsEnabled = false;
         }
     }
 }
