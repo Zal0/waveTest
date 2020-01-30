@@ -1,75 +1,101 @@
 !WaveEngine.Framework.Assets.AssetSources.Entities.SceneModel,WaveEngine.Framework
 Items:
   - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
-    Name: camera
+    Name: spring
     Tag: null
     IsEnabled: true
     IsStatic: false
     Components:
       - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
-        Id: 09140ce7-e575-4945-9c09-d121bcfc3cf6
+        Id: 86bbda40-3013-434a-8d6b-763e03ea5273
         LocalOrientation:
-          W: 0.923879564
-          X: -0.382683396
+          W: 1.0
+          X: 0.0
           Y: 0.0
-          Z: 0.0
+          Z: -2.6952728E-08
         LocalPosition:
-          X: -6.42258271E-07
-          Y: 3.45713973
-          Z: 4.2283783
+          X: -2.04087337E-06
+          Y: 2.0261364
+          Z: -2.00936246
         LocalScale:
           X: 1.0
           Y: 1.0
           Z: 1.0
-      - !WaveEngine.Components.Cameras.FreeCamera3D,WaveEngine.Components
-        Id: d67ec59f-5559-42d3-b0e9-590548178086
-        MaxPitch: 1.49225616
-        MouseSensibility: 0.0299999993
-        Speed: 5.0
-        TouchMoveAndOrientationRatio: 0.5
-        TouchSensibility: 1.0
+      - !MyWaveProject.SpringCamera,MyWaveProject
+        Id: 21e2f1dc-61c1-416e-abe3-26076757ea83
         UpdateOrder: 0.5
-      - !WaveEngine.Framework.Graphics.Camera3D,WaveEngine.Framework
-        Id: 95c6976e-8c94-4083-bf5f-9cbc878881c7
-        Aperture: 1.0
-        AspectRatio: 1.60189569
-        BackgroundColor:
-          A: 255
-          B: 237
-          G: 149
-          R: 100
-        CameraOrder: 0.0
-        ClearDepth: 1.0
-        ClearFlags: All
-        ClearStencil: 0
-        Compensation: 0.0
-        CustomProjection: null
-        DepthRange:
-          MaxDepth: 1.0
-          MinDepth: 0.0
-        DisplayTag: null
-        DisplayTagDirty: false
-        Exposure: 1.00000012
-        FarPlane: 1000.0
-        FieldOfView: 0.785398185
-        FrustumCullingEnabled: true
-        LayerMaskDefaultValue: true
-        NearPlane: 0.100000001
-        ScreenViewport:
-          Height: 211.0
-          MaxDepth: 1.0
-          MinDepth: 0.0
-          Width: 338.0
-          X: 0.0
-          Y: 0.0
-        Sensitivity: 100.0
-        ShutterSpeed: 1.20000005
-        UpVector:
-          X: 0.0
-          Y: 1.0
-          Z: 0.0
-    Children: []
-    Id: 285df373-bcfe-403f-bd44-4b1524a9ea43
+    Children:
+      - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+        Name: camera
+        Tag: null
+        IsEnabled: true
+        IsStatic: false
+        Components:
+          - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+            Id: 09140ce7-e575-4945-9c09-d121bcfc3cf6
+            LocalOrientation:
+              W: 0.000851324701
+              X: 0.000190285442
+              Y: -0.975879371
+              Z: -0.218308493
+            LocalPosition:
+              X: 4.73344301E-07
+              Y: 0.0
+              Z: 0.0
+            LocalScale:
+              X: 1.00000024
+              Y: 1.0
+              Z: 1.00000012
+          - !WaveEngine.Components.Cameras.FreeCamera3D,WaveEngine.Components
+            Id: d67ec59f-5559-42d3-b0e9-590548178086
+            MaxPitch: 1.49225616
+            MouseSensibility: 0.0299999993
+            Speed: 5.0
+            TouchMoveAndOrientationRatio: 0.5
+            TouchSensibility: 1.0
+            UpdateOrder: 0.5
+          - !WaveEngine.Framework.Graphics.Camera3D,WaveEngine.Framework
+            Id: 95c6976e-8c94-4083-bf5f-9cbc878881c7
+            Aperture: 1.0
+            AspectRatio: 1.38095236
+            BackgroundColor:
+              A: 255
+              B: 237
+              G: 149
+              R: 100
+            CameraOrder: 0.0
+            ClearDepth: 1.0
+            ClearFlags: All
+            ClearStencil: 0
+            Compensation: 0.0
+            CustomProjection: null
+            DepthRange:
+              MaxDepth: 1.0
+              MinDepth: 0.0
+            DisplayTag: null
+            DisplayTagDirty: false
+            Exposure: 1.00000012
+            FarPlane: 1000.0
+            FieldOfView: 0.785398185
+            FrustumCullingEnabled: true
+            LayerMaskDefaultValue: true
+            NearPlane: 0.100000001
+            ScreenViewport:
+              Height: 231.0
+              MaxDepth: 1.0
+              MinDepth: 0.0
+              Width: 319.0
+              X: 0.0
+              Y: 0.0
+            Sensitivity: 100.0
+            ShutterSpeed: 1.20000005
+            UpVector:
+              X: 0.0
+              Y: 1.0
+              Z: 0.0
+        Children: []
+        Id: 285df373-bcfe-403f-bd44-4b1524a9ea43
+    Id: f53e445b-d26b-444e-b794-1302fa1745ba
   - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
     Name: light
     Tag: null
@@ -137,9 +163,9 @@ Items:
               Y: 0.0
               Z: 0.0
             LocalPosition:
-              X: 0.0
-              Y: 0.0
-              Z: 0.0
+              X: -4.95619247E-07
+              Y: 1.51183236
+              Z: 1.8022655E-07
             LocalScale:
               X: 1.0
               Y: 0.999999881
@@ -2845,4 +2871,133 @@ Items:
             Id: ba536078-6840-48f3-8ebf-eb6d64c0622b
         Id: 05c0de0c-2034-4f98-bbf7-755ec4df4054
     Id: c08a5179-b6ed-4d26-9b7f-23728391e49d
+  - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+    Name: Entity_195
+    Tag: null
+    IsEnabled: true
+    IsStatic: false
+    Components:
+      - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+        Id: 1d06a4dd-f068-4aba-8daa-b561ed36a861
+        LocalOrientation:
+          W: 0.707106829
+          X: -0.707106709
+          Y: 0.0
+          Z: 0.0
+        LocalPosition:
+          X: 0.0
+          Y: 0.0
+          Z: -2.06122536E-06
+        LocalScale:
+          X: 1.0
+          Y: 0.99999994
+          Z: 0.99999994
+    Children:
+      - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+        Name: RootNode (model correction matrix)
+        Tag: null
+        IsEnabled: true
+        IsStatic: false
+        Components:
+          - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+            Id: 672a0b07-1444-4c73-9b74-4fd3f50d1203
+            LocalOrientation:
+              W: 1.0
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            LocalPosition:
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            LocalScale:
+              X: 1.0
+              Y: 1.0
+              Z: 1.0
+        Children:
+          - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+            Name: Root
+            Tag: null
+            IsEnabled: true
+            IsStatic: false
+            Components:
+              - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+                Id: a4f3a8c0-0395-44b8-b123-09911656063c
+                LocalOrientation:
+                  W: 1.0
+                  X: 0.0
+                  Y: 0.0
+                  Z: 0.0
+                LocalPosition:
+                  X: 0.0
+                  Y: 0.0
+                  Z: 0.0
+                LocalScale:
+                  X: 1.0
+                  Y: 1.0
+                  Z: 1.0
+            Children:
+              - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+                Name: Plane
+                Tag: null
+                IsEnabled: true
+                IsStatic: false
+                Components:
+                  - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+                    Id: c7b69073-9124-4870-b9cc-13173d2068b6
+                    LocalOrientation:
+                      W: 1.0
+                      X: 0.0
+                      Y: 0.0
+                      Z: 0.0
+                    LocalPosition:
+                      X: 0.0
+                      Y: 0.0
+                      Z: 0.0313699991
+                    LocalScale:
+                      X: 3.0
+                      Y: 6.0
+                      Z: 1.0
+                Children:
+                  - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+                    Name: Plane_0
+                    Tag: null
+                    IsEnabled: true
+                    IsStatic: false
+                    Components:
+                      - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+                        Id: ce97fa82-eb93-477c-8c44-7801d59ceea3
+                        LocalOrientation:
+                          W: 1.0
+                          X: 0.0
+                          Y: 0.0
+                          Z: 0.0
+                        LocalPosition:
+                          X: 0.0
+                          Y: 0.0
+                          Z: 0.0
+                        LocalScale:
+                          X: 10.0
+                          Y: 10.0
+                          Z: 10.0
+                      - !WaveEngine.Components.Graphics3D.MaterialComponent,WaveEngine.Framework
+                        Id: 23ec0581-2032-4a0f-be00-7ad1275362d3
+                        AsignedTo: track_1
+                        Material: 5dfc810a-2252-4b92-96ec-41977c689e75
+                        UseCopy: false
+                      - !WaveEngine.Components.Graphics3D.MeshComponent,WaveEngine.Framework
+                        Id: 5a3a25bb-7960-4b0e-b1d1-c302ae289b89
+                        Model: 18dd4ce1-eea4-4528-899e-435d1d033720
+                        ModelMeshName: Plane_0
+                      - !WaveEngine.Components.Graphics3D.MeshRenderer,WaveEngine.Framework
+                        Id: 9f644618-48c9-4583-b33d-d05a4e57a7e2
+                        DebugBoundingbox: true
+                        FrustumCullingEnabled: true
+                        OrderBias: 0
+                    Children: []
+                    Id: ea7c8beb-c40f-4e92-b624-80b6315d4e45
+                Id: 36b48ddd-cb06-4856-8e75-0e52be76c73c
+            Id: 9c811f9b-9fae-43a6-a034-a50b9176f4ed
+        Id: 7498b721-1b7e-42e0-97ca-4da7f77025a8
+    Id: 12811812-3a13-43a5-94b6-55ea4bb5accd
 Managers: []

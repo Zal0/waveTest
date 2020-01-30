@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-// File generated on 1/30/2020 11:13:17
+// File generated on 1/30/2020 13:41:28
 namespace MyWaveProject
 {
     using System;
@@ -96,6 +96,47 @@ namespace MyWaveProject
                 
                 /// <summary> Asset Path (Models/textures/Boden_baseColor.png.wetx) </summary>
                 public static readonly Guid Boden_baseColor_png = new Guid("07fe8de6-ff74-4162-99c7-be08b7831d5a");
+            }
+            
+            public sealed class road
+            {
+                
+                /// <summary> Asset Path (Models/road/scene.bin.wefile) </summary>
+                public static readonly Guid scene_bin = new Guid("46a6d4ab-3073-43e0-815f-fd418a53397e");
+                
+                /// <summary> Asset Path (Models/road/scene.gltf.wemd) </summary>
+                public static readonly Guid scene_gltf = new Guid("18dd4ce1-eea4-4528-899e-435d1d033720");
+                
+                public sealed class textures
+                {
+                    
+                    /// <summary> Asset Path (Models/road/textures/track_1_normal.png.wetx) </summary>
+                    public static readonly Guid track_1_normal_png = new Guid("3c2adc11-354a-44c4-9491-eb318fda77a2");
+                    
+                    /// <summary> Asset Path (Models/road/textures/track_1_baseColor.png.wetx) </summary>
+                    public static readonly Guid track_1_baseColor_png = new Guid("038d0e1a-6216-484f-8ca7-34c1f7123386");
+                    
+                    /// <summary> Asset Path (Models/road/textures/track_1_metallicRoughness.png.wetx) </summary>
+                    public static readonly Guid track_1_metallicRoughness_png = new Guid("792ebc37-b103-407d-b9b2-5cff8ae7bd1d");
+                }
+                
+                public sealed class scene_Embedded
+                {
+                    
+                    public sealed class Samplers
+                    {
+                        
+                        /// <summary> Asset Path (Models/road/scene_Embedded/Samplers/Sampler0.wesp) </summary>
+                        public static readonly Guid Sampler0 = new Guid("d9f26d50-d027-4ef2-a559-97b212d56ce9");
+                    }
+                    
+                    public sealed class Materials
+                    {
+                        
+                        /// <summary> Asset Path (Models/road/scene_Embedded/Materials/track_1.wemt) </summary>
+                        public static readonly Guid track_1 = new Guid("5dfc810a-2252-4b92-96ec-41977c689e75");
+                    }
+                }
             }
             
             public sealed class scene_Embedded
