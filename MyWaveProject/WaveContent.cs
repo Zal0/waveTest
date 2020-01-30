@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-// File generated on 1/30/2020 13:41:28
+// File generated on 1/30/2020 15:45:30
 namespace MyWaveProject
 {
     using System;
@@ -63,6 +63,44 @@ namespace MyWaveProject
             
             /// <summary> Asset Path (Models/scene.gltf.wemd) </summary>
             public static readonly Guid scene_gltf = new Guid("85a3c9d8-a488-4cf3-a3b9-7b63890abe7a");
+            
+            public sealed class bullet
+            {
+                
+                /// <summary> Asset Path (Models/bullet/scene.bin.wefile) </summary>
+                public static readonly Guid scene_bin = new Guid("adca890f-778b-457a-ac5e-c7bed2019766");
+                
+                /// <summary> Asset Path (Models/bullet/scene.gltf.wemd) </summary>
+                public static readonly Guid scene_gltf = new Guid("7d5b6570-5f5e-45fb-92a1-a753941116a3");
+                
+                public sealed class textures
+                {
+                    
+                    /// <summary> Asset Path (Models/bullet/textures/lambert1_metallicRoughness.png.wetx) </summary>
+                    public static readonly Guid lambert1_metallicRoughness_png = new Guid("28d85ebd-87fa-4397-8406-c33f6103853a");
+                    
+                    /// <summary> Asset Path (Models/bullet/textures/lambert1_baseColor.png.wetx) </summary>
+                    public static readonly Guid lambert1_baseColor_png = new Guid("3927ae5a-4b3c-40cd-b2a1-b52a0fdc4600");
+                }
+                
+                public sealed class scene_Embedded
+                {
+                    
+                    public sealed class Samplers
+                    {
+                        
+                        /// <summary> Asset Path (Models/bullet/scene_Embedded/Samplers/Sampler0.wesp) </summary>
+                        public static readonly Guid Sampler0 = new Guid("d562d0d8-b8ae-4068-b578-5918adf63577");
+                    }
+                    
+                    public sealed class Materials
+                    {
+                        
+                        /// <summary> Asset Path (Models/bullet/scene_Embedded/Materials/lambert1.wemt) </summary>
+                        public static readonly Guid lambert1 = new Guid("bee322ac-1591-42cc-80bd-c4ed2212c5d4");
+                    }
+                }
+            }
             
             public sealed class textures
             {

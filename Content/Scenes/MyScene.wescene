@@ -57,7 +57,7 @@ Items:
           - !WaveEngine.Framework.Graphics.Camera3D,WaveEngine.Framework
             Id: 95c6976e-8c94-4083-bf5f-9cbc878881c7
             Aperture: 1.0
-            AspectRatio: 1.38095236
+            AspectRatio: 1.38578677
             BackgroundColor:
               A: 255
               B: 237
@@ -73,7 +73,7 @@ Items:
               MaxDepth: 1.0
               MinDepth: 0.0
             DisplayTag: null
-            DisplayTagDirty: false
+            DisplayTagDirty: true
             Exposure: 1.00000012
             FarPlane: 1000.0
             FieldOfView: 0.785398185
@@ -81,10 +81,10 @@ Items:
             LayerMaskDefaultValue: true
             NearPlane: 0.100000001
             ScreenViewport:
-              Height: 231.0
+              Height: 197.0
               MaxDepth: 1.0
               MinDepth: 0.0
-              Width: 319.0
+              Width: 273.0
               X: 0.0
               Y: 0.0
             Sensitivity: 100.0
@@ -341,7 +341,7 @@ Items:
                                       - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
                                         Name: Scheibe_Boden_0
                                         Tag: null
-                                        IsEnabled: true
+                                        IsEnabled: false
                                         IsStatic: false
                                         Components:
                                           - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
@@ -3000,4 +3000,183 @@ Items:
             Id: 9c811f9b-9fae-43a6-a034-a50b9176f4ed
         Id: 7498b721-1b7e-42e0-97ca-4da7f77025a8
     Id: 12811812-3a13-43a5-94b6-55ea4bb5accd
+  - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+    Name: bullet
+    Tag: null
+    IsEnabled: true
+    IsStatic: false
+    Components:
+      - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+        Id: dc7b7630-b25f-4f4c-ad47-3a65bc4cbbd2
+        LocalOrientation:
+          W: 1.0
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        LocalPosition:
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        LocalScale:
+          X: 1.0
+          Y: 0.999999881
+          Z: 0.999999881
+      - !MyWaveProject.Bullet,MyWaveProject
+        Id: b941782a-7af7-4243-b33f-d13d220711c3
+        UpdateOrder: 0.5
+        speed: 10.0
+    Children:
+      - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+        Name: Entity_
+        Tag: null
+        IsEnabled: true
+        IsStatic: false
+        Components:
+          - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+            Id: 50885b2a-8d02-410c-b3a4-cb2aba85b329
+            LocalOrientation:
+              W: 0.500000179
+              X: -0.50000006
+              Y: -0.49999994
+              Z: -0.499999851
+            LocalPosition:
+              X: 0.714272976
+              Y: -0.593827903
+              Z: -10.0643778
+            LocalScale:
+              X: 0.100000001
+              Y: 0.100000001
+              Z: 0.100000001
+        Children:
+          - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+            Name: RootNode (model correction matrix)
+            Tag: null
+            IsEnabled: true
+            IsStatic: false
+            Components:
+              - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+                Id: 880235a2-8b3d-4573-824b-3bae14524e79
+                LocalOrientation:
+                  W: 1.0
+                  X: 0.0
+                  Y: 0.0
+                  Z: 0.0
+                LocalPosition:
+                  X: 0.0
+                  Y: 0.0
+                  Z: 0.0
+                LocalScale:
+                  X: 1.0
+                  Y: 1.0
+                  Z: 1.0
+            Children:
+              - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+                Name: 151d46c7a321456e865cf53de5f5111a_fbx
+                Tag: null
+                IsEnabled: true
+                IsStatic: false
+                Components:
+                  - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+                    Id: 4dfc365b-0933-4997-b457-c6d72b53c513
+                    LocalOrientation:
+                      W: 0.707106769
+                      X: 0.707106769
+                      Y: 0.0
+                      Z: 0.0
+                    LocalPosition:
+                      X: 0.0
+                      Y: 0.0
+                      Z: 0.0
+                    LocalScale:
+                      X: 1.0
+                      Y: 1.0
+                      Z: 1.0
+                Children:
+                  - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+                    Name: RootNode
+                    Tag: null
+                    IsEnabled: true
+                    IsStatic: false
+                    Components:
+                      - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+                        Id: bcffaa6f-c3f4-4868-80b3-204e69e3ebd7
+                        LocalOrientation:
+                          W: 1.0
+                          X: 0.0
+                          Y: 0.0
+                          Z: 0.0
+                        LocalPosition:
+                          X: 0.0
+                          Y: 0.0
+                          Z: 0.0
+                        LocalScale:
+                          X: 1.0
+                          Y: 1.0
+                          Z: 1.0
+                    Children:
+                      - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+                        Name: pCylinder29
+                        Tag: null
+                        IsEnabled: true
+                        IsStatic: false
+                        Components:
+                          - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+                            Id: b17197ff-26fc-4728-aae9-079b70894d3a
+                            LocalOrientation:
+                              W: 0.707106769
+                              X: 0.0
+                              Y: 0.0
+                              Z: -0.707106769
+                            LocalPosition:
+                              X: 104.0
+                              Y: 6.79164934
+                              Z: 7.63026571
+                            LocalScale:
+                              X: 1.0
+                              Y: 1.0
+                              Z: 1.0
+                        Children:
+                          - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+                            Name: pCylinder29_lambert1_0
+                            Tag: null
+                            IsEnabled: true
+                            IsStatic: false
+                            Components:
+                              - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+                                Id: 7452de6b-5b14-4bcc-a724-789b9393b9d7
+                                LocalOrientation:
+                                  W: 1.0
+                                  X: 0.0
+                                  Y: 0.0
+                                  Z: 0.0
+                                LocalPosition:
+                                  X: 0.0
+                                  Y: 0.0
+                                  Z: 0.0
+                                LocalScale:
+                                  X: 1.0
+                                  Y: 1.0
+                                  Z: 1.0
+                              - !WaveEngine.Components.Graphics3D.MaterialComponent,WaveEngine.Framework
+                                Id: 5895f2e3-9f79-4bf3-9359-182aa09ca4fd
+                                AsignedTo: lambert1
+                                Material: bee322ac-1591-42cc-80bd-c4ed2212c5d4
+                                UseCopy: false
+                              - !WaveEngine.Components.Graphics3D.MeshComponent,WaveEngine.Framework
+                                Id: 18f22c31-755c-4459-a18b-857c34001ce3
+                                Model: 7d5b6570-5f5e-45fb-92a1-a753941116a3
+                                ModelMeshName: pCylinder29_lambert1_0
+                              - !WaveEngine.Components.Graphics3D.MeshRenderer,WaveEngine.Framework
+                                Id: 1df80a1f-748c-4b6a-b6d8-1c04a8983e46
+                                DebugBoundingbox: true
+                                FrustumCullingEnabled: true
+                                OrderBias: 0
+                            Children: []
+                            Id: 8519d538-8f1e-4522-9137-2bff57cb16e0
+                        Id: 1b7d65e9-10fd-4efa-84d8-3cbd2608f4a0
+                    Id: 72b10a19-2966-4275-befc-f35a5a9dff5e
+                Id: 85ec7922-8f58-4a6a-a99f-3281057d0f0b
+            Id: d2316bde-fb13-4859-bc9d-ebb5af3bfe5e
+        Id: f2cfa698-40ab-4b31-8dd7-f7c1a3abf1a2
+    Id: d24d9895-e71d-4008-8b22-10d99aab5be7
 Managers: []

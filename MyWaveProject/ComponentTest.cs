@@ -32,11 +32,11 @@ namespace MyWaveProject
             float deltaTime = (float)gameTime.TotalSeconds;
             if (keyboardDispatcher.IsKeyDown(Keys.H))
             {
-                transform.RotateAround(transform.Position, Vector3.Up, 5.0f * deltaTime);
+                transform.RotateAround(transform.Position, Vector3.Up, 2.0f * deltaTime);
             }
             if (keyboardDispatcher.IsKeyDown(Keys.K))
             {
-                transform.RotateAround(transform.Position, Vector3.Up, -5.0f * deltaTime);
+                transform.RotateAround(transform.Position, Vector3.Up, -2.0f * deltaTime);
             }
             if (keyboardDispatcher.IsKeyDown(Keys.U))
             {
@@ -46,6 +46,10 @@ namespace MyWaveProject
             {
                 transform.LocalPosition += transform.LocalOrientation * (Vector3.Backward * -5.0f * deltaTime);
             }
+            /*if (keyboardDispatcher.IsKeyDown(Keys.Space))
+            {
+                this.Managers.EntityManager.Add(this.Owner.);
+            }*/
         }
     }
 }

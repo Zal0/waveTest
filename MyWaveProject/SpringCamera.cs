@@ -39,9 +39,9 @@ namespace MyWaveProject
                 float dist = (target.Position - transform.Position).Length();
                 transform.Position = target.Position;
 
-                transform.Orientation = Quaternion.Lerp(transform.Orientation, target.Orientation, Math.Min(1.0f, Vector3.Angle(transform.WorldTransform.Forward, target.WorldTransform.Forward) * 0.3f));
+                transform.Orientation = Quaternion.Lerp(transform.Orientation, target.Orientation, Math.Min(1.0f, Vector3.Angle(transform.WorldTransform.Forward, target.WorldTransform.Forward) * 10.0f * deltaTime));
 
-                Translate(Vector3.Backward * Lerp(dist, 5.0f, (dist - 0.5f) * 0.001f));
+                Translate(Vector3.Backward * Lerp(dist, 5.0f, (dist - 0.5f) * 0.1f * deltaTime));
             }
         }
     }

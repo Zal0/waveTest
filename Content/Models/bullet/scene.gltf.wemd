@@ -1,0 +1,31 @@
+!WaveEngine.Assets.Exporters.ModelMetaFile,WaveEngine.Assets
+Id: 7d5b6570-5f5e-45fb-92a1-a753941116a3
+Clips: []
+DefaultProfile:
+  ExcludeAsset: false
+  Name: null
+  Platform: Undefined
+ExportAnimations: true
+ExportAsRaw: false
+GenerateTangentSpace: false
+Profiles: {}
+Source:
+  Header:
+    Id: 0d7f2fa0-006a-43fe-bcbb-7c0576ddcd09
+    IsCompressed: true
+  LastModified: 0001-01-01T00:00:00.0000000
+  ModelInfo:
+    Id: b6b50e3d-3553-4ece-9298-03969905b83b
+    AnimationTracks: []
+    EmbeddedResources: null
+    Materials:
+      - Item1: lambert1
+        Item2: bee322ac-1591-42cc-80bd-c4ed2212c5d4
+    Nodes:
+      - RootNode (gltf orientation matrix)
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix)
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).151d46c7a321456e865cf53de5f5111a_fbx
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).151d46c7a321456e865cf53de5f5111a_fbx.RootNode
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).151d46c7a321456e865cf53de5f5111a_fbx.RootNode.pCylinder29
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).151d46c7a321456e865cf53de5f5111a_fbx.RootNode.pCylinder29.pCylinder29_lambert1_0
+SwapWindingOrder: false
