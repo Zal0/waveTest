@@ -1,0 +1,11 @@
+!WaveEngine.Framework.ProjectModel,WaveEngine.Framework
+Profiles:
+  - AlphaCompressionFormat: BC3_UNorm
+    CompileEffects: false
+    GraphicsBackend: DirectX11
+    LauncherType: Default
+    Name: Windows
+    NonAlphaCompressionFormat: BC3_UNorm
+    Platform: Windows
+ResourcesPath: Content
+WaveVersion: 3.0.0.3989-nightly

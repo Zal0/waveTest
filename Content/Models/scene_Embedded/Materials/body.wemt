@@ -1,0 +1,51 @@
+!WaveEngine.Assets.Exporters.MaterialMetaFile,WaveEngine.Assets
+Id: 619236ec-725e-4e2c-a649-5ec5538681ca
+DefaultProfile:
+  ExcludeAsset: false
+  Name: null
+  Platform: Undefined
+ExportAsRaw: false
+MaterialInfo:
+  Id: 1da2dbd9-c6ac-4b01-ba38-591bfdbb5a1b
+  ActiveDirectives:
+    - LIT
+    - IBL
+    - DIFF
+    - NORMAL
+    - EMIS
+    - MT_RG_TEXTURED
+    - AO
+  EffectID: daa1f60a-82ad-40fc-8fbb-7b85caa6de0a
+  Layer: e35c59a9-26ab-4b4c-8210-4b1f21c31530
+  Parameters:
+    - Name: BaseColor
+      Type: WaveEngine.Mathematics.Vector3,WaveEngine.Mathematics
+      ValueByteArray: AACAPwAAgD8AAIA/
+    - Name: EmissiveColor
+      Type: WaveEngine.Mathematics.Vector3,WaveEngine.Mathematics
+      ValueByteArray: AACAPwAAgD8AAIA/
+    - Name: Alpha
+      Type: System.Single
+      ValueByteArray: AACAPw==
+    - Name: Metallic
+      Type: System.Single
+      ValueByteArray: AACAPw==
+    - Name: Roughness
+      Type: System.Single
+      ValueByteArray: AACAPw==
+    - Name: ReferenceAlpha
+      Type: System.Single
+      ValueByteArray: AAAAAA==
+  Samplers: []
+  Textures:
+    - ID: 85831b8d-f3f2-46c2-88b5-3695e68b3ec4
+      Name: BaseColorTexture
+    - ID: 463320a7-82b8-4017-b493-6e17c0107366
+      Name: NormalTexture
+    - ID: 8f893b4e-731c-4174-a5d2-f4bcfefc5827
+      Name: EmissiveTexture
+    - ID: c4830f59-0c2a-4580-b5a7-89f8d4855000
+      Name: MetallicRoughnessTexture
+    - ID: c4830f59-0c2a-4580-b5a7-89f8d4855000
+      Name: OcclusionTexture
+Profiles: {}

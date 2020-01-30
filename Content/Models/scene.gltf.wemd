@@ -1,0 +1,144 @@
+!WaveEngine.Assets.Exporters.ModelMetaFile,WaveEngine.Assets
+Id: 85a3c9d8-a488-4cf3-a3b9-7b63890abe7a
+Clips:
+  - AdditiveReferenceFrame: 0
+    AdditiveReferenceSourceTrack: null
+    EndTime: 25.0
+    Events: []
+    InPlaceMode: None
+    Name: CINEMA_4D_Basis
+    RootMotion: false
+    RootMotionNode: null
+    SourceTrack: null
+    StartTime: 0.0
+    Type: Default
+DefaultProfile:
+  ExcludeAsset: false
+  Name: null
+  Platform: Undefined
+ExportAnimations: true
+ExportAsRaw: false
+GenerateTangentSpace: false
+Profiles: {}
+Source:
+  Header:
+    Id: cb811955-00f7-4c83-a28d-09d86bd60c88
+    IsCompressed: true
+  LastModified: 0001-01-01T00:00:00.0000000
+  ModelInfo:
+    Id: abfe7940-2a05-4321-bd38-cb70dcf659dd
+    AnimationTracks:
+      - AdditiveReferenceFrame: 0
+        AdditiveReferenceSourceTrack: null
+        EndTime: 25.0
+        Events: []
+        InPlaceMode: None
+        Name: CINEMA_4D_Basis
+        RootMotion: false
+        RootMotionNode: null
+        SourceTrack: null
+        StartTime: 0.0
+        Type: Default
+    EmbeddedResources: null
+    Materials:
+      - Item1: Boden
+        Item2: a262dd4e-60ca-42e7-a5d0-479186ba0dbd
+      - Item1: body
+        Item2: 619236ec-725e-4e2c-a649-5ec5538681ca
+      - Item1: material
+        Item2: aefe8498-8535-451b-9207-413be6fac97a
+    Nodes:
+      - RootNode (gltf orientation matrix)
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix)
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Env
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Env.Scheibe
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Env.Scheibe.Scheibe_Boden_0
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Env.Himmel
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.Turbine_Controller
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.Turbine_Controller.Turbine_R
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.Turbine_Controller.Turbine_L
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.Eye_Controller
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.Eye_Controller.Eye_Pupil
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_Body_body_0
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_leg_F
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_leg_F.Drone_leg_F_leg_0
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_leg_F.F_P1_G
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_leg_F.F_P1_G.F_P1_G_leg_0
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_leg_F.F_P1_G.F_P2
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_leg_F.F_P1_G.F_P2.F_P2_leg_0
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_leg_F.F_P1_G.F_P2.F_P3_G
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_leg_F.F_P1_G.F_P2.F_P3_G.F_P3_G_leg_0
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_leg_F.F_P1_G.F_P2.F_P3_G.F_P4
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_leg_F.F_P1_G.F_P2.F_P3_G.F_P4.F_P4_leg_0
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_leg_F.F_P1_G.F_P2.F_P3_G.F_P4.F_P5_M
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_leg_F.F_P1_G.F_P2.F_P3_G.F_P4.F_P5_M.F_P5_M_leg_0
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_leg_F.F_P1_G.F_P2.F_P3_G.F_P4.F_P5_M.F_P6_G
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_leg_F.F_P1_G.F_P2.F_P3_G.F_P4.F_P5_M.F_P6_G.F_P6_G_leg_0
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_leg_F.F_P1_G.F_P2.F_P3_G.F_P4.F_P5_M.F_P6_G.F_P7
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_leg_F.F_P1_G.F_P2.F_P3_G.F_P4.F_P5_M.F_P6_G.F_P7.F_P7_leg_0
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_Gen_R
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_Gen_R.0
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_Gen_R.Drone_Panel_R
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_Gen_R.Drone_Panel_R.Drone_Panel_R_body_0
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_Gen_R.Drone_Panel_R.Drone_leg_R
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_Gen_R.Drone_Panel_R.Drone_leg_R.Drone_leg_R_leg_0
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_Gen_R.Drone_Panel_R.Drone_leg_R.R_P1_G
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_Gen_R.Drone_Panel_R.Drone_leg_R.R_P1_G.R_P1_G_leg_0
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_Gen_R.Drone_Panel_R.Drone_leg_R.R_P1_G.R_P2
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_Gen_R.Drone_Panel_R.Drone_leg_R.R_P1_G.R_P2.R_P2_leg_0
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_Gen_R.Drone_Panel_R.Drone_leg_R.R_P1_G.R_P2.R_P3_G
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_Gen_R.Drone_Panel_R.Drone_leg_R.R_P1_G.R_P2.R_P3_G.R_P3_G_leg_0
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_Gen_R.Drone_Panel_R.Drone_leg_R.R_P1_G.R_P2.R_P3_G.R_P4
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_Gen_R.Drone_Panel_R.Drone_leg_R.R_P1_G.R_P2.R_P3_G.R_P4.R_P4_leg_0
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_Gen_R.Drone_Panel_R.Drone_leg_R.R_P1_G.R_P2.R_P3_G.R_P4.R_P5_M
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_Gen_R.Drone_Panel_R.Drone_leg_R.R_P1_G.R_P2.R_P3_G.R_P4.R_P5_M.R_P5_M_leg_0
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_Gen_R.Drone_Panel_R.Drone_leg_R.R_P1_G.R_P2.R_P3_G.R_P4.R_P5_M.R_P6_G
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_Gen_R.Drone_Panel_R.Drone_leg_R.R_P1_G.R_P2.R_P3_G.R_P4.R_P5_M.R_P6_G.R_P6_G_leg_0
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_Gen_R.Drone_Panel_R.Drone_leg_R.R_P1_G.R_P2.R_P3_G.R_P4.R_P5_M.R_P6_G.R_P7
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_Gen_R.Drone_Panel_R.Drone_leg_R.R_P1_G.R_P2.R_P3_G.R_P4.R_P5_M.R_P6_G.R_P7.R_P7_leg_0
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_Gen_L
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_Gen_L.Drone_Gen_L_body_0
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_Gen_L.Drone_Panel_L
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_Gen_L.Drone_Panel_L.Drone_Panel_L_body_0
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_Gen_L.Drone_Panel_L.Drone_leg_L
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_Gen_L.Drone_Panel_L.Drone_leg_L.Drone_leg_L_leg_0
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_Gen_L.Drone_Panel_L.Drone_leg_L.L_P1_G
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_Gen_L.Drone_Panel_L.Drone_leg_L.L_P1_G.L_P1_G_leg_0
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_Gen_L.Drone_Panel_L.Drone_leg_L.L_P1_G.L_P2
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_Gen_L.Drone_Panel_L.Drone_leg_L.L_P1_G.L_P2.L_P2_leg_0
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_Gen_L.Drone_Panel_L.Drone_leg_L.L_P1_G.L_P2.L_P3_G
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_Gen_L.Drone_Panel_L.Drone_leg_L.L_P1_G.L_P2.L_P3_G.L_P3_G_leg_0
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_Gen_L.Drone_Panel_L.Drone_leg_L.L_P1_G.L_P2.L_P3_G.L_P4
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_Gen_L.Drone_Panel_L.Drone_leg_L.L_P1_G.L_P2.L_P3_G.L_P4.L_P4_leg_0
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_Gen_L.Drone_Panel_L.Drone_leg_L.L_P1_G.L_P2.L_P3_G.L_P4.L_P5_M
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_Gen_L.Drone_Panel_L.Drone_leg_L.L_P1_G.L_P2.L_P3_G.L_P4.L_P5_M.L_P5_M_leg_0
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_Gen_L.Drone_Panel_L.Drone_leg_L.L_P1_G.L_P2.L_P3_G.L_P4.L_P5_M.L_P6_G
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_Gen_L.Drone_Panel_L.Drone_leg_L.L_P1_G.L_P2.L_P3_G.L_P4.L_P5_M.L_P6_G.L_P6_G_leg_0
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_Gen_L.Drone_Panel_L.Drone_leg_L.L_P1_G.L_P2.L_P3_G.L_P4.L_P5_M.L_P6_G.L_P7
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_Gen_L.Drone_Panel_L.Drone_leg_L.L_P1_G.L_P2.L_P3_G.L_P4.L_P5_M.L_P6_G.L_P7.L_P7_leg_0
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_UPanel_R
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_UPanel_R.Drone_UPanel_R_body_0
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_UPanel_L
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_UPanel_L.Drone_UPanel_L_body_0
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_UPart
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_UPart.Drone_UPart_body_0
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_ILens
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_ILens.Drone_ILens_body_0
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_ILens.Drone_IEye
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_ILens.Drone_IEye.1
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_Turb_M_L
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_Turb_M_L.Drone_Turb_M_L_body_0
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_Turb_M_L.Drone_Turb_Blade_L
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_Turb_M_L.Drone_Turb_Blade_L.Drone_Turb_Blade_L_body_0
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_Turb_M_R
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_Turb_M_R.Drone_Turb_M_R_body_0
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_Turb_M_R.Drone_Turb_Blade_R
+      - RootNode (gltf orientation matrix).RootNode (model correction matrix).BusterDrone_fbx._Node_3.RootNode.Drone_Controller.U_MassPoint.D_MassPoint.Drone_Body.Drone_Turb_M_R.Drone_Turb_Blade_R.Drone_Turb_Blade_R_body_0
+SwapWindingOrder: false
