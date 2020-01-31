@@ -148,6 +148,23 @@ Items:
           X: 1.0
           Y: 0.999999881
           Z: 0.999999881
+      - !MyWaveProject.ComponentTest,MyWaveProject
+        Id: 02d84990-9b10-49e3-8a07-7d32b5316d26
+        UpdateOrder: 0.5
+        bullets:
+          - &b941782a7af74243b33fd13d220711c3
+            Id: b941782a-7af7-4243-b33f-d13d220711c3
+            UpdateOrder: 0.5
+          - &e1ba77c4f5cc40d6a4934e92647a6676
+            Id: e1ba77c4-f5cc-40d6-a493-4e92647a6676
+            UpdateOrder: 0.5
+          - &ac1b41e2b0a34931a38c61861ff312d4
+            Id: ac1b41e2-b0a3-4931-a38c-61861ff312d4
+            UpdateOrder: 0.5
+          - &614e62807e5a4201a14abf8a9cce4e2b
+            Id: 614e6280-7e5a-4201-a14a-bf8a9cce4e2b
+            UpdateOrder: 0.5
+        keyboardDispatcher: null
     Children:
       - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
         Name: Test
@@ -164,29 +181,12 @@ Items:
               Z: 0.0
             LocalPosition:
               X: -4.95619247E-07
-              Y: 1.51183236
+              Y: 1.12300003
               Z: 1.8022655E-07
             LocalScale:
               X: 1.0
               Y: 0.999999881
               Z: 0.999999881
-          - !MyWaveProject.ComponentTest,MyWaveProject
-            Id: feab0cc8-974c-415f-9dbd-be883e90c607
-            UpdateOrder: 0.5
-            bullets:
-              - &b941782a7af74243b33fd13d220711c3
-                Id: b941782a-7af7-4243-b33f-d13d220711c3
-                UpdateOrder: 0.5
-              - &e1ba77c4f5cc40d6a4934e92647a6676
-                Id: e1ba77c4-f5cc-40d6-a493-4e92647a6676
-                UpdateOrder: 0.5
-              - &ac1b41e2b0a34931a38c61861ff312d4
-                Id: ac1b41e2-b0a3-4931-a38c-61861ff312d4
-                UpdateOrder: 0.5
-              - &614e62807e5a4201a14abf8a9cce4e2b
-                Id: 614e6280-7e5a-4201-a14a-bf8a9cce4e2b
-                UpdateOrder: 0.5
-            keyboardDispatcher: null
         Children:
           - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
             Name: Entity_
@@ -2898,8 +2898,8 @@ Items:
           Y: 0.0
           Z: 0.0
         LocalPosition:
-          X: 3.05587292
-          Y: 1.51930475
+          X: 0.0
+          Y: 0.0
           Z: 7.61727449E-07
         LocalScale:
           X: 1.0
@@ -2921,7 +2921,7 @@ Items:
               Z: 0.0
             LocalPosition:
               X: -5.2537905E-07
-              Y: 1.60262299
+              Y: 0.0
               Z: 4.95502281
             LocalScale:
               X: 1.0
@@ -2945,9 +2945,9 @@ Items:
                   Y: 0.0
                   Z: 0.0
                 LocalPosition:
-                  X: 8.56702513E-08
-                  Y: -0.261349678
-                  Z: 0.0
+                  X: 6.55319241E-07
+                  Y: 1.12334764
+                  Z: -0.000212192535
                 LocalScale:
                   X: 1.0
                   Y: 0.999999881
@@ -5664,7 +5664,7 @@ Items:
               Z: 0.0
             LocalPosition:
               X: -4.38963699
-              Y: 1.60262334
+              Y: 0.0
               Z: 4.95502281
             LocalScale:
               X: 1.0
@@ -5689,7 +5689,7 @@ Items:
                   Z: 0.0
                 LocalPosition:
                   X: 8.56702513E-08
-                  Y: -0.261349678
+                  Y: 1.12300003
                   Z: 0.0
                 LocalScale:
                   X: 1.0
@@ -8407,7 +8407,7 @@ Items:
               Z: 0.0
             LocalPosition:
               X: -8.30996227
-              Y: 1.60262334
+              Y: 0.0
               Z: 4.95502281
             LocalScale:
               X: 1.0
@@ -8432,7 +8432,7 @@ Items:
                   Z: 0.0
                 LocalPosition:
                   X: 8.56702513E-08
-                  Y: -0.261349678
+                  Y: 1.12300003
                   Z: 0.0
                 LocalScale:
                   X: 1.0
@@ -11150,7 +11150,7 @@ Items:
               Z: 0.0
             LocalPosition:
               X: 3.33013844
-              Y: 1.60262334
+              Y: 0.0
               Z: 4.95502329
             LocalScale:
               X: 1.0
@@ -11175,7 +11175,7 @@ Items:
                   Z: 0.0
                 LocalPosition:
                   X: 8.56702513E-08
-                  Y: -0.261349678
+                  Y: 1.12300003
                   Z: 0.0
                 LocalScale:
                   X: 1.0
@@ -13888,8 +13888,8 @@ Items:
       - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
         Id: 1d06a4dd-f068-4aba-8daa-b561ed36a861
         LocalOrientation:
-          W: 0.707106829
-          X: -0.707106709
+          W: 1.0
+          X: 0.0
           Y: 0.0
           Z: 0.0
         LocalPosition:
@@ -13910,8 +13910,8 @@ Items:
           - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
             Id: 672a0b07-1444-4c73-9b74-4fd3f50d1203
             LocalOrientation:
-              W: 1.0
-              X: 0.0
+              W: 0.707106829
+              X: -0.707106709
               Y: 0.0
               Z: 0.0
             LocalPosition:
@@ -14021,14 +14021,132 @@ Items:
               Y: 0.0
               Z: 0.0
             LocalPosition:
-              X: 23.4966278
-              Y: 13.4266357
+              X: 0.0
+              Y: 0.0
               Z: -2.2649765E-06
             LocalScale:
               X: 1.0
               Y: 1.0
               Z: 1.0
-        Children: []
+          - !MyWaveProject.Spawner,MyWaveProject
+            Id: 1f4e2ba9-7029-48da-bff0-be8299961ce4
+            UpdateOrder: 0.5
+        Children:
+          - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+            Name: spawnPoint0
+            Tag: null
+            IsEnabled: true
+            IsStatic: false
+            Components:
+              - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+                Id: 80c58e99-f0ea-450a-a93b-f4d21e1be7b2
+                LocalOrientation:
+                  W: 1.0
+                  X: 0.0
+                  Y: 0.0
+                  Z: 0.0
+                LocalPosition:
+                  X: 0.0
+                  Y: 0.0
+                  Z: 0.0
+                LocalScale:
+                  X: 1.0
+                  Y: 1.0
+                  Z: 1.0
+            Children: []
+            Id: 022aa5ec-19b5-4c80-924a-d6307b97910d
+          - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+            Name: spawnPoint02
+            Tag: null
+            IsEnabled: true
+            IsStatic: false
+            Components:
+              - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+                Id: cae70829-4b27-4091-a1b4-9228542f6741
+                LocalOrientation:
+                  W: 1.0
+                  X: 0.0
+                  Y: 0.0
+                  Z: 0.0
+                LocalPosition:
+                  X: 7.80772018
+                  Y: -4.65375308E-07
+                  Z: -6.89357948
+                LocalScale:
+                  X: 1.0
+                  Y: 1.0
+                  Z: 1.0
+            Children: []
+            Id: a439b2c1-becf-4e24-9e33-0df61af64ee5
+          - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+            Name: spawnPoint03
+            Tag: null
+            IsEnabled: true
+            IsStatic: false
+            Components:
+              - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+                Id: 3eb1084b-319e-455a-b04f-f2a30c78f34e
+                LocalOrientation:
+                  W: 1.0
+                  X: 0.0
+                  Y: 0.0
+                  Z: 0.0
+                LocalPosition:
+                  X: 7.80772018
+                  Y: -4.6537366E-07
+                  Z: 14.0210714
+                LocalScale:
+                  X: 1.0
+                  Y: 1.0
+                  Z: 1.0
+            Children: []
+            Id: 2c3487c4-d23a-4d7f-9262-b90ccd51c3f4
+          - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+            Name: spawnPoint04
+            Tag: null
+            IsEnabled: true
+            IsStatic: false
+            Components:
+              - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+                Id: 0745f1cc-281c-4bf4-93d8-1f9600751469
+                LocalOrientation:
+                  W: 1.0
+                  X: 0.0
+                  Y: 0.0
+                  Z: 0.0
+                LocalPosition:
+                  X: -6.76350641
+                  Y: 4.03138017E-07
+                  Z: 14.0210123
+                LocalScale:
+                  X: 1.0
+                  Y: 1.0
+                  Z: 1.0
+            Children: []
+            Id: 72e0fccd-01aa-4d50-a21b-1e79df79e823
+          - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+            Name: spawnPoint01
+            Tag: null
+            IsEnabled: true
+            IsStatic: false
+            Components:
+              - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+                Id: ebc41638-8938-458b-bd02-7156e7585ba9
+                LocalOrientation:
+                  W: 1.0
+                  X: 0.0
+                  Y: 0.0
+                  Z: 0.0
+                LocalPosition:
+                  X: -9.38197517
+                  Y: 5.5920907E-07
+                  Z: -8.84076118
+                LocalScale:
+                  X: 1.0
+                  Y: 1.0
+                  Z: 1.0
+            Children: []
+            Id: f816dcef-e3b9-4f5e-be9b-e5d7d17c95f4
         Id: 40dd3c11-2adc-42e3-aed1-796d6b1995e6
     Id: 12811812-3a13-43a5-94b6-55ea4bb5accd
   - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
