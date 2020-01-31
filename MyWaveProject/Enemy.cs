@@ -34,6 +34,23 @@ namespace MyWaveProject
             speed = Random.Range(2.5f, 6.0f);
         }
 
+        void CheckCollision(Transform3D enemy)
+        {
+            float dist = (enemy.Position - transform.Position).Length();
+            float max_dist = 1.5f;
+            if (enemy.Owner.IsEnabled && dist < max_dist)
+            {
+                Vector3 offset = (enemy.Position - transform.Position);
+                offset.Normalize();
+                float t = ((max_dist - dist) / max_dist);
+                offset *= t * 0.3f;
+                offset.Y = 0.0f;
+
+                enemy.LocalPosition += offset;
+                transform.LocalPosition -= offset;
+            }
+        }
+
         protected override void Update(TimeSpan gameTime)
         {
             float deltaTime = (float)gameTime.TotalSeconds;
@@ -41,28 +58,15 @@ namespace MyWaveProject
             Quaternion rot = transform.Orientation;
             transform.LookAt(player.transform.Position);
             transform.Orientation = Quaternion.Lerp(rot, transform.Orientation, 0.1f);
-            if ((player.transform.Position - transform.Position).Length() > 0.5f)
-                Translate(Vector3.Forward * speed * deltaTime);
+            Translate(Vector3.Forward * speed * deltaTime);
 
             foreach (Enemy enemy in enemies)
             {
                 if (enemy == this)
                     continue;
-
-                float dist = (enemy.transform.Position - transform.Position).Length();
-                float max_dist = 1.5f;
-                if (enemy.Owner.IsEnabled && dist < max_dist)
-                {
-                    Vector3 offset = (enemy.transform.Position - transform.Position);
-                    offset.Normalize();
-                    float t = ((max_dist - dist) / max_dist);
-                    offset *= t * 0.3f;
-                    offset.Y = 0.0f;
-
-                    enemy.transform.LocalPosition += offset;
-                    transform.LocalPosition -= offset;
-                }
+                CheckCollision(enemy.transform);
             }
+            CheckCollision(player.transform);
         }
     }
 }
