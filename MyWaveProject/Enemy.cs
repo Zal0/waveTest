@@ -31,7 +31,7 @@ namespace MyWaveProject
 
         protected override void Start()
         {
-            speed = Random.Range(0.5f, 3.0f);
+            speed = Random.Range(2.5f, 6.0f);
         }
 
         protected override void Update(TimeSpan gameTime)
@@ -50,13 +50,14 @@ namespace MyWaveProject
                     continue;
 
                 float dist = (enemy.transform.Position - transform.Position).Length();
-                float max_dist = 1.0f;
+                float max_dist = 1.5f;
                 if (enemy.Owner.IsEnabled && dist < max_dist)
                 {
                     Vector3 offset = (enemy.transform.Position - transform.Position);
                     offset.Normalize();
                     float t = ((max_dist - dist) / max_dist);
                     offset *= t * 0.3f;
+                    offset.Y = 0.0f;
 
                     enemy.transform.LocalPosition += offset;
                     transform.LocalPosition -= offset;
