@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-// File generated on 1/31/2020 12:21:51
+// File generated on 1/31/2020 12:34:05
 namespace MyWaveProject
 {
     using System;
