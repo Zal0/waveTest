@@ -29,13 +29,18 @@ namespace MyWaveProject
             transform.LocalPosition += transform.LocalOrientation * offset;
         }
 
+        protected override void Start()
+        {
+            speed = Random.Range(0.5f, 3.0f);
+        }
+
         protected override void Update(TimeSpan gameTime)
         {
             float deltaTime = (float)gameTime.TotalSeconds;
 
             Quaternion rot = transform.Orientation;
             transform.LookAt(player.transform.Position);
-            transform.Orientation = Quaternion.Lerp(rot, transform.Orientation, 0.5f);
+            transform.Orientation = Quaternion.Lerp(rot, transform.Orientation, 0.1f);
             if ((player.transform.Position - transform.Position).Length() > 0.5f)
                 Translate(Vector3.Forward * speed * deltaTime);
 

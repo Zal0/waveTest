@@ -26,11 +26,6 @@ namespace MyWaveProject
             return a + (b - a) * t;
         }
 
-        private float Range(float min, float max)
-        {
-            return Lerp(min, max, (float)r.NextDouble());
-        }
-
         protected override void Update(TimeSpan gameTime)
         {
             float deltaTime = (float)gameTime.TotalSeconds;
@@ -44,12 +39,12 @@ namespace MyWaveProject
                     {
                         enemy.Owner.IsEnabled = true;
                         Entity[] childEntities = Owner.ChildEntities.ToArray();
-                        enemy.transform.Position = childEntities[r.Next(0, childEntities.Length - 1)].FindComponent< Transform3D >().Position;
+                        enemy.transform.Position = childEntities[Random.Range(0, childEntities.Length - 1)].FindComponent< Transform3D >().Position;
                         break;
                     }
                 }
 
-                timeToNextRespawn = Range(spawnMin, spawnMax);
+                timeToNextRespawn = Random.Range(spawnMin, spawnMax);
             }
         }
     }
