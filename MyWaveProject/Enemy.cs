@@ -46,7 +46,8 @@ namespace MyWaveProject
                 offset *= t * 0.3f;
                 offset.Y = 0.0f;
 
-                enemy.LocalPosition += offset;
+                if(enemy != player.transform)
+                    enemy.LocalPosition += offset;
                 transform.LocalPosition -= offset;
             }
         }
