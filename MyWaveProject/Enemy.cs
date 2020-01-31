@@ -36,21 +36,25 @@ namespace MyWaveProject
             Quaternion rot = transform.Orientation;
             transform.LookAt(player.transform.Position);
             transform.Orientation = Quaternion.Lerp(rot, transform.Orientation, 0.5f);
-
-            transform.Position += transform.LocalOrientation * Vector3.Forward * speed * deltaTime;
+            if ((player.transform.Position - transform.Position).Length() > 0.5f)
+                Translate(Vector3.Forward * speed * deltaTime);
 
             foreach (Enemy enemy in enemies)
             {
+                if (enemy == this)
+                    continue;
+
                 float dist = (enemy.transform.Position - transform.Position).Length();
                 float max_dist = 1.0f;
                 if (enemy.Owner.IsEnabled && dist < max_dist)
                 {
                     Vector3 offset = (enemy.transform.Position - transform.Position);
                     offset.Normalize();
-                    offset *= (max_dist - dist) / max_dist * 0.01f;
+                    float t = ((max_dist - dist) / max_dist);
+                    offset *= t * 0.3f;
 
-                    Translate(offset);
-                    enemy.Translate(-offset);
+                    enemy.transform.LocalPosition += offset;
+                    transform.LocalPosition -= offset;
                 }
             }
         }
